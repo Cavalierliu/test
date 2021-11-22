@@ -8,7 +8,7 @@
 docker ps -a 
 ```
 
-#### 2、导出export
+#### 2、导出exportsss
 
 导出后的tar文件传输至待导入机器上
 
