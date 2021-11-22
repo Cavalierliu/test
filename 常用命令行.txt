@@ -1,0 +1,60 @@
+1. 生成公钥
+ssh-keygen -t rsa -C "1350928576@qq.com"
+2在~/.ssh目录下有 id_rsa和 id_rsa.pub两个文件，其中id_rsa.pub文件里存放的即是公钥key。
+3.tar格式（tar是打包，不是压缩）：
+【打包】：tar cvf 目录文件名.tar 目录文件名
+【解包】：tar xvf 目录文件名.tar
+
+tar.gz格式：
+【压缩】：tar -zcvf 目录文件名.tar.gz 目录文件名
+【解压】：tar -zxvf 目录文件名.tar.gz
+
+zip格式：
+【压缩】：zip -r 目录文件名.zip 目录文件名
+【解压】：unzip 目录文件名.zip
+
+rar格式：
+【压缩】：rar a 目录文件名.rar 目录文件名
+【解压】：unrar x 目录文件名.rar
+
+gz格式：
+【压缩】：gzip  文件名
+【解压】：gzip -d 文件名.gz
+
+bz2格式：
+【压缩】：bzip2 -z 文件名
+【解压】：bzip2 -d 文件名.bz2
+
+4. 安装openssl
+sudo apt-get install openssl
+sudo apt-get install libssl-dev
+
+5.安装工具
+rustup override set nightly
+6. 设置CCE_HOME的路径
+export CCE_HOME=$PWD
+
+7.服务器地址
+http://127.0.0.1:8080/index.html
+8.root
+rootmanager 对应的根证书
+root_domain 对应的设备管理证书
+8.
+protoc-c --c_out=. discovery.proto
+protoc-c --c_out=. **/*.proto
+go get -u github.com/golang/protobuf/protoc-gen-go
+
+git push origin chainmaker:boatiosdk-chainmaker-dev
+监听端口数据
+sudo ngrep -d lo '' 'port 12301' -W byline
+
+
+
+长安链 用到错误码 问题列表
+2021-10-08 16:34:33
+
+
+
+
+
+
