@@ -6,6 +6,8 @@
 
 ```
 docker ps -a 
+ww
+
 ```
 
 #### 2、导出exportsss
